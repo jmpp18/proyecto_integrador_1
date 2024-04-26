@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="encuesta">
+
+</Layout>
+
+<div class="flex-col columns-1 mt-14 ">
+    <div class="flex justify-center" ><p class="text-3xl ">Encuesta de sensacion termica</p></div>
+    <div class="flex-col columns-1 border mt-20 border-slate-950 pb-6 mx-96 ">
+        <div class="flex justify-center ">1.cual es la sensacion termica en este momento</div>
+        <form class="flex justify-center flex-col columns-1 items-center text-2xl">
+            <div><input type="radio" name="sensacion" value="muy_alta"> mucha calor</div>
+            <div><input type="radio" name="sensacion" value="alta"> calor</div>
+            <div><input type="radio" name="sensacion" value="media"> templado</div>
+            <div><input type="radio" name="sensacion" value="baja"> frio</div>
+            <div> <input type="radio" name="sensacion" value="muy_baja"> muy frio</div>
+        </form>
+    </div>
+    <div class="flex-col columns-1 border mt-20 border-slate-950 pb-6 mx-96 content-center">
+    <div class="flex justify-center  ">2.hora del dia en que se responde la encuesta</div>
+        <div class="flex justify-center "><input class="text-center rounded border border-slate-900" type="text" name="" id="" placeholder="hora del dia" ></div>
+</div>
+<div class="flex-col columns-1 mt-20 pb-6 mx-96 item-center ">
+    <div class="flex justify-center"><input type="radio" name="ubicacion" value="permitir"> permitir saber tu ubicacion</div>
+</div>
+
+
+</div>
